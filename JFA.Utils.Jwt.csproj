@@ -12,7 +12,7 @@
     <PackageIcon>box-icon.png</PackageIcon>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageProjectUrl>https://github.com/javlonfattoev/JFA.Utils.Jwt</PackageProjectUrl>
-    <PackageIconUrl>https://raw.githubusercontent.com/javlonfattoev/JFA.Utils.Jwt/master/Resources/box-icon.png</PackageIconUrl>
+    <PackageIconUrl>https://github.com/javlonfattoev/JFA.Utils.Jwt/blob/master/Resources/box-icon.png</PackageIconUrl>
   </PropertyGroup>
 
   <ItemGroup>
