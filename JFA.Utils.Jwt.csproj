@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <Authors>Javlon Fattoev</Authors>
+    <Company>JFA</Company>
+    <Product>Utils.Jwt</Product>
+    <Description>Extension for webapi using jwt</Description>
+    <PackageTags>jwt, token</PackageTags>
+    <PackageIcon>box-icon.png</PackageIcon>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="C:\Users\5\Downloads\box-icon.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
