@@ -1,6 +1,8 @@
 name: Upload dotnet package
 
 on:
+  push:
+  pull_request:
   release:
     types: [created]
 
