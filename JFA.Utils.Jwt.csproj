@@ -11,10 +11,12 @@
     <PackageTags>jwt, token</PackageTags>
     <PackageIcon>box-icon.png</PackageIcon>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/javlonfattoev/JFA.Utils.Jwt</PackageProjectUrl>
+    <PackageIconUrl>https://raw.githubusercontent.com/javlonfattoev/JFA.Utils.Jwt/master/Resources/box-icon.png</PackageIconUrl>
   </PropertyGroup>
 
   <ItemGroup>
-    <None Include="C:\Users\5\Downloads\box-icon.png">
+    <None Include="./Resources/box-icon.png">
       <Pack>True</Pack>
       <PackagePath>\</PackagePath>
     </None>
