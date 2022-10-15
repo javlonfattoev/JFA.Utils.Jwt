@@ -1,4 +1,4 @@
-Extension for using JWT
+Extension for using JWT.
 
 Add following line to Program.cs file
 
