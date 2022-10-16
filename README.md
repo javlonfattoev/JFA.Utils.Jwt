@@ -3,7 +3,7 @@ Extension for using JWT.
 
 # Steps
 
-> Install package
+> Install package from [nuget.org](https://www.nuget.org/packages/JFA.Utils.Jwt)
 ```PM
 NuGet\Install-Package JFA.Utils.Jwt -Version <VERSION>
 ```
