@@ -1,14 +1,24 @@
+# JFA.Utils.Jwt
 Extension for using JWT.
 
-Add following line to Program.cs file
+# Steps
 
-      builder.Services.AddJwt();
+> Install package
+```PM
+NuGet\Install-Package JFA.Utils.Jwt -Version <VERSION>
+```
+#
+> Add following line to Program.cs file
+```C#
+builder.Services.AddJwt();
+```
+#
+> Get token anywhere:
+```C#
+var claims = new[]
+{
+   new Claim(ClaimTypes.Name, userName)
+};
 
-Get token anywhere:
-
-      var claims = new[]
-      {
-         new Claim(ClaimTypes.Name, userName)
-      };
-      
-      return JFA.Utils.Jwt.JwtToken.GenerateToken(claims);
+return JFA.Utils.Jwt.JwtToken.GenerateToken(claims);
+```
