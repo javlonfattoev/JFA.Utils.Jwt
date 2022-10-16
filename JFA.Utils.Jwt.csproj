@@ -7,17 +7,17 @@
     <Authors>Javlon Fattoev</Authors>
     <Company>JFA</Company>
     <Product>Utils.Jwt</Product>
-    <Version>1.0.3</Version>
+    <Version>1.0.4</Version>
     <Description>Extension for webapi using jwt</Description>
     <PackageTags>jwt, token</PackageTags>
-    <PackageIcon>box-icon.png</PackageIcon>
+    <PackageIcon>JFA.png</PackageIcon>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageProjectUrl>https://github.com/javlonfattoev/JFA.Utils.Jwt</PackageProjectUrl>
-    <PackageIconUrl>https://github.com/javlonfattoev/JFA.Utils.Jwt/blob/master/Resources/box-icon.png</PackageIconUrl>
+    <PackageIconUrl>https://github.com/javlonfattoev/JFA.Utils.Jwt/blob/master/Resources/JFA.png</PackageIconUrl>
   </PropertyGroup>
 
   <ItemGroup>
-    <None Include="./Resources/box-icon.png">
+    <None Include="./Resources/JFA.png">
       <Pack>True</Pack>
       <PackagePath>\</PackagePath>
     </None>
