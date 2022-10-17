@@ -14,6 +14,10 @@
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageProjectUrl>https://github.com/javlonfattoev/JFA.Utils.Jwt</PackageProjectUrl>
     <PackageIconUrl>https://github.com/javlonfattoev/JFA.Utils.Jwt/blob/master/Resources/JFA.png</PackageIconUrl>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Title>Jwt extension</Title>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <RepositoryUrl>https://github.com/javlonfattoev/JFA.Utils.Jwt</RepositoryUrl>
   </PropertyGroup>
 
   <ItemGroup>
@@ -25,8 +29,15 @@
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="6.0.6" />
-    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="6.0.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="6.0.0" />
     <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="6.19.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
   </ItemGroup>
 
 </Project>
