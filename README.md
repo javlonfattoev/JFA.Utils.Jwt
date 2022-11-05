@@ -1,5 +1,5 @@
 # JFA.Utils.Jwt
-Extension for using JWT.
+JWTBearer
 
 [![latest version](https://img.shields.io/nuget/v/JFA.Utils.Jwt)](https://www.nuget.org/packages/JFA.Utils.Jwt) 
 [![downloads](https://img.shields.io/nuget/dt/JFA.Utils.Jwt)](https://www.nuget.org/packages/JFA.Utils.Jwt)
